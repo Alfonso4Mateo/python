@@ -9,7 +9,7 @@ void main (){
 int edad = 30;
 double precio = 9.99;
 bool activo = true;
-String saludo = "Hola";
+String saludo = "Hola tonto";
 
 print("""Edad: $edad
 Precio: $precio
