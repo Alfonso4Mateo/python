@@ -8,3 +8,10 @@ void registrarAlumno({required String nombre, required String curso, int edad = 
   print("Curso: $curso");
   print("Edad: $edad");
 }
+void main(){
+  String nombre = "Ana";
+  String curso = "Dart Avanzado";
+  int edad = 20;
+  registrarAlumno(nombre: nombre, curso: curso);
+  registrarAlumno(nombre: "Luis", curso: "Flutter", edad: 22);
+}
