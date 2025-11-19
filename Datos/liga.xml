@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liga temporada="2025-2026">
+  <equipo id="E001">
+    <nombre>Atletico Central</nombre>
+    <ciudad>Madrid</ciudad>
+    <fundacion>1903</fundacion>
+  </equipo>
+
+  <equipo id="E002">
+    <nombre>Universidad FC</nombre>
+    <ciudad>Barcelona</ciudad>
+    <fundacion>1910</fundacion>
+  </equipo>
+
+  <equipo id="E003">
+    <nombre>Rio Norte</nombre>
+    <ciudad>Bilbao</ciudad>
+    <fundacion>1921</fundacion>
+  </equipo>
+
+  <equipo id="E004">
+    <nombre>Portuario CF</nombre>
+    <ciudad>Valencia</ciudad>
+    <fundacion>1909</fundacion>
+  </equipo>
+</liga>
