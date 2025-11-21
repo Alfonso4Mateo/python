@@ -24,9 +24,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 public class EscrituraXMLvarioselementos {
 
 	public static void main(String[] args) {
-		
-		
-		
+	
 		try {
 			
 			  DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();

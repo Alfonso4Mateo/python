@@ -1,0 +1,15 @@
+<empresa>
+
+   <departamento nombre="Informática">
+
+       <empleado>
+
+           <nombre>Ana</nombre>
+
+           <puesto>Desarrolladora</puesto>
+
+       </empleado>
+
+   </departamento>
+
+</empresa>
