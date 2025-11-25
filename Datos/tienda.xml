@@ -1,0 +1,15 @@
+<tienda>
+
+   <producto id="1">
+
+       <nombre>Teclado</nombre>
+
+       <precio>19.99</precio>
+
+       <stock>15</stock>
+
+   </producto>
+
+   <!-- etc. -->
+
+</tienda>

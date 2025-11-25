@@ -4,6 +4,10 @@ import java.io.File;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.*;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 
 public class ej4 {
@@ -37,6 +41,12 @@ public class ej4 {
               Element puesto = doc.createElement("puesto");
 			  puesto.appendChild(doc.createTextNode("desarroladora"));
 			  empleado.appendChild (puesto);
+
+			  TransformerFactory transformerFactory = TransformerFactory.newInstance();
+			  Transformer transformer = transformerFactory.newTransformer();
+			  DOMSource source = new DOMSource(doc);
+			  StreamResult result = new StreamResult(new File("empresa.xml"));
+              transformer.transform(source, result);
 
     }catch  (Exception e) {
         System.out.println("Error al procesar el archivo XML: " + e.getMessage());

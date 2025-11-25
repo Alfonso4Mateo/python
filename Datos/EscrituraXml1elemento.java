@@ -59,13 +59,6 @@ public class EscrituraXml1elemento {
 			  edad.appendChild(doc.createTextNode("28"));
 			  alumno.appendChild(edad);
 			  
-			  
-			  
-		
-			  
-			  
-			  
-
 			  // Clases necesarias para la creación del archivo XML a partir de la estructura DOM creada
 			  TransformerFactory transformerFactory = TransformerFactory.newInstance();
 			  Transformer transformer = transformerFactory.newTransformer();
