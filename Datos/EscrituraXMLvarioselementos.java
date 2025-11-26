@@ -24,8 +24,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 public class EscrituraXMLvarioselementos {
 
 	public static void main(String[] args) {
-
-		teclado,19.99,15
 	
 		try {
 			
