@@ -45,6 +45,6 @@ public class ej7 {
             System.out.println("nuevo alumno añadido correctamente y archivo guardado como 'alumnos_actualizado.xml'");
            } catch (Exception e) {
             System.out.println("Error al procesar el archivo XML: " + e.getMessage()); 
+        }
     }
-}
 }
